@@ -1,0 +1,66 @@
+body {
+    background-color: lightgrey
+}
+
+h1 {
+    font-size: 28px;
+    color: black;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+ul, ol {
+    font-size: 16px;
+    color: black;
+    margin: 8px 20px;
+}
+
+b {
+    font-size: 16px;
+    color: black;
+    padding: 16px
+}
+
+#vk {
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+#tg {
+    color: deepskyblue;
+    font-size: 20px
+}
+
+.content {
+    display: flex;
+    margin: 10px 10px;
+}
+
+.content-left, .content-right {
+    margin: 10px 20px;
+    padding: 15px;
+    background-color: azure;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.content-left {
+    width: 70%;
+}
+
+.content-right {
+    width: 30%;
+}
+
+img {
+    width: 100%; 
+    height: auto;
+}
