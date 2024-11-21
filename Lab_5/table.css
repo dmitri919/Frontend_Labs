@@ -1,0 +1,74 @@
+body {
+    background-color: lightgrey;
+}
+
+.header {
+    display: flex;
+    padding: 5px;
+    justify-content: flex-end;
+}
+
+.header a {
+    margin: 0 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+caption {
+    font-size: 24px;
+}
+
+tr, th, td {
+    font-size: 16px;
+    border: solid 1px;
+    border-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr {
+    background-color: lightblue;
+}
+
+th {
+    background-color: blanchedalmond;
+}
+
+tr:hover {
+    background-color: lightcoral;
+}
+
+form {
+    border: solid 1px;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.text {
+    background-color: lightblue;
+    border: 1px dashed;
+    border-color: black;
+    margin-bottom: 5px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.button {
+    width: auto;
+    height: auto;
+    background-color: blanchedalmond;
+    font-size: large;
+    border: 3px ridge;
+    border-color: black;
+    border-radius: 5px;
+}
