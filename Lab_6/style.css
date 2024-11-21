@@ -1,0 +1,13 @@
+.navbar {
+    background-color: lightgray;
+}
+
+#sidebar {
+    position: fixed;
+    top: 58px;
+    left: 0;
+    width: 200px;
+    padding: 5px;
+    overflow-y: auto;
+    z-index: 11;
+}
